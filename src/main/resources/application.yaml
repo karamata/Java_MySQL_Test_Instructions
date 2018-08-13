@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/wallethubdb
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: secret
+  jpa:
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate.ddl-auto: update
